@@ -1,0 +1,23 @@
+.matrix-active { display:inline-block; width:16px; height: 16px; background:url(../img/icons/matrix-active.png) no-repeat right bottom; }
+.matrix-empty { display:inline-block; width:16px; height: 16px; background:url(../img/icons/matrix-empty.png) no-repeat right bottom; }
+
+.list_choose {
+    position: fixed;
+    left:50%;
+    top:50%;
+    margin-left: -350px;
+    margin-top: -300px;
+    width: 700px;
+    height: 650px;
+    overflow-y: auto;
+    border: 1px solid gray;
+    background: white;
+    padding: 20px 20px 20px 20px;
+    z-index: 200;
+}
+
+table.adminlist tr:hover td { background: #047E97; cursor: pointer; }
+
+table.table-filter tr td { background: none; }
+
+table.userview  tr td {height: 30px;}
